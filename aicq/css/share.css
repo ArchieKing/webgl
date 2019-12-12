@@ -1,0 +1,63 @@
+.share {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.share .head {
+  position: fixed;
+  z-index: 999;
+  top: 0.4rem;
+  left: 0;
+  height: 0.77333rem;
+  width: 100%;
+  align-items: stretch;
+}
+
+.share .head .back-btn {
+  margin-left: 0.4rem;
+  height: 0.77333rem;
+  width: 0.77333rem;
+  border-radius: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/back.png);
+}
+
+.share .share-content {
+  padding-top: 3.89333rem;
+}
+
+.share .share-content .qrcode {
+  margin: 0 auto;
+  width: 3.62667rem;
+}
+
+.share .share-content .qrcode img {
+  width: 100%;
+}
+
+.share .share-content .text {
+  padding-top: 0.66667rem;
+  width: 3.36rem;
+  margin: 0 auto;
+}
+
+.share .share-content .text img {
+  width: 100%;
+}
+
+.share .share-content .login-btn {
+  padding-top: 0.74667rem;
+  width: 4.45333rem;
+  margin: 0 auto;
+}
+
+.share .share-content .login-btn img {
+  width: 100%;
+}

@@ -1,0 +1,55 @@
+@import "./tool";
+ 
+.share{
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .5);
+    .head{
+        position: fixed;
+        z-index: 999;
+        top: pxTorem(30px);
+        left: 0;
+        height: pxTorem(58px);
+        width: 100%;
+        align-items: stretch;
+        .back-btn{
+            margin-left: pxTorem(30px);
+            height: pxTorem(58px); 
+            width: pxTorem(58px);
+            border-radius: 100%;
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(../images/back.png);
+        }
+    }
+    .share-content{
+          padding-top: pxTorem(292px);
+          .qrcode{
+                margin: 0 auto;
+                img{
+                      width: 100%;
+                }
+                width: pxTorem(272px);
+          }
+          .text{
+                padding-top: pxTorem(50px);
+            width: pxTorem(252px);
+            margin: 0 auto;
+                img{
+                      width: 100%;
+                }
+          }
+          .login-btn{
+            padding-top: pxTorem(56px);
+            width: pxTorem(334px);
+            margin: 0 auto;
+            img{
+                  width: 100%;
+            }
+      }
+    }
+}

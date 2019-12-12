@@ -1,0 +1,36 @@
+.btnsRoom{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  bottom: 5%;
+}
+
+.btnsLeft{
+  font-size: 0;
+  position: absolute;
+  left: 8px;
+}
+
+.btnsRight{
+  display: none;
+  font-size: 0;
+  position: absolute;
+  right: 8px;
+}
+
+.btnAerialView{
+  width: 62px;
+}
+
+.btnRoam{
+  width: 62px;
+}
+
+.btn1F{
+  width: 62px;
+}
+
+.btn2F{
+  width: 62px;
+}

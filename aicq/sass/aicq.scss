@@ -1,0 +1,49 @@
+@import "./tool";
+ 
+.aicq{
+    .head{
+        position: fixed;
+        z-index: 999;
+        top: pxTorem(30px);
+        left: 0;
+        height: pxTorem(58px);
+        width: 100%;
+        padding-left: pxTorem(30px);
+        .back-btn{
+            height: pxTorem(58px); 
+            width: pxTorem(58px);
+            border-radius: 100%;
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(../images/back.png);
+        }
+        .top-btns{
+              margin-left: pxTorem(22px);
+              width: pxTorem(266px);
+              height: pxTorem(58px);
+              background-size: 100% 100%;
+              background-image: url(../images/Rounded.png);
+              background-repeat: no-repeat;
+              align-items: center;
+              padding: 0 pxTorem(10px);
+            .top-btn{
+                  height: pxTorem(34px);
+                  flex: 1;
+                  // width: pxTorem(34px);
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  background-position: center;
+            }
+            .top-btn1{
+                  background-image: url(../images/download.png);
+            }
+            .top-btn2{
+                  background-image: url(../images/card.png);
+            }
+            .top-btn3{
+                  background-image: url(../images/share.png);
+            }
+        }
+    }
+}

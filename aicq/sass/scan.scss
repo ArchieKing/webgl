@@ -1,0 +1,65 @@
+@import "./tool";
+ 
+.scan{
+    .head{
+        position: fixed;
+        z-index: 999;
+        top: pxTorem(30px);
+        left: 0;
+        height: pxTorem(58px);
+        width: 100%;
+        align-items: stretch;
+        .back-btn{
+            margin-left: pxTorem(30px);
+            height: pxTorem(58px); 
+            width: pxTorem(58px);
+            border-radius: 100%;
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(../images/back.png);
+        }
+        .right-btn{
+            position: absolute;
+            right: pxTorem(30px);
+            height: pxTorem(58px); 
+            width: pxTorem(58px);
+            border-radius: 100%;
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(../images/cam.png);
+        }
+        .top-btns{
+              margin-left: pxTorem(22px);
+              width: pxTorem(266px);
+              height: pxTorem(58px);
+              background-size: 100% 100%;
+              background-image: url(../images/Rounded.png);
+              background-repeat: no-repeat;
+              align-items: center;
+              padding: 0 pxTorem(10px);
+            .top-btn{
+                  height: pxTorem(34px);
+                  flex: 1;
+                  // width: pxTorem(34px);
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  background-position: center;
+            }
+            .top-btn1{
+                  background-image: url(../images/download.png);
+            }
+        }
+    }
+    .scan-content{
+          padding-top: pxTorem(376px);
+          .scan-icon{
+                width: pxTorem(436px);
+                margin: 0 auto;
+                img{
+                      width: 100%;
+                }
+          }
+    }
+}

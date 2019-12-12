@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>SEEKMORE VR</title>
+	<meta charset="utf-8">
+
+	<style>
+		body {
+			position: fixed;
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+
+	<link rel="stylesheet" href="css/loading.css" />
+	<link rel="stylesheet" href="css/building.css" />
+	<link rel="stylesheet" href="css/room.css" />
+
+	<script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/ATools.js"></script>
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+
+	<div class="loading">
+		<iframe src="../tutorial/" class="tips" frameborder="0" ;></iframe>
+	</div>
+
+	<div class="btnsBuilding">
+		<img class="btnArrow" src="./imgs/arrow.png" />
+		<div class="threeBtns">
+			<img class="btn1" src="./imgs/btn1_h.png" />
+			<img class="btn2" src="./imgs/btn2_n.png" />
+			<img class="btn3" src="./imgs/btn3.png" />
+		</div>
+	</div>
+
+	<div class="btnsRoom">
+		<div class="btnsLeft">
+			<img class="btnAerialView" src="./imgs/aerialView_h.png" />
+			<img class="btnRoam" src="./imgs/roam.png" />
+		</div>
+		<div class="btnsRight">
+			<img class="btn1F" src="./imgs/1F_h.png" />
+			<img class="btn2F" src="./imgs/2F.png" />
+		</div>
+	</div>
+
+	<div id="container"></div>
+
+	<script type="text/javascript" src="./js/libs/three.min.js"></script>
+	<script type="text/javascript" src="./js/libs/OrbitControls.js"></script>
+	<script type="text/javascript" src="./js/libs/GLTFLoader.js"></script>
+
+	<script type="text/javascript" src="./js/A3DFrame.js"></script>
+
+	<script type="text/javascript" src="./js/UIEvent.js"></script>
+
+
+</body>
+
+</html>

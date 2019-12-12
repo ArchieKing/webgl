@@ -1,0 +1,45 @@
+@import "./tool";
+ 
+.choice{
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .5);
+      img{
+            width: 100%;
+      }
+      .choice-box{
+            padding-top: pxTorem(172px);
+            padding-left: pxTorem(150px);
+            padding-right: pxTorem(150px);
+            .mt132{
+                  margin-top: pxTorem(132px);
+            }
+            .text{
+                  color: #fff;
+                  font-size: pxTorem(28px);
+                  text-align: center;
+                  line-height: pxTorem(42px);
+            }
+            .choice-btns{
+                  .choice-icon{
+                        margin: 0 auto;
+                        width: pxTorem(142px);
+                        // height: pxTorem(106px);
+                  }
+                  .choice-icon2{
+                        margin: 0 auto;
+                        width: pxTorem(136px);
+                        // height: pxTorem(106px);
+                  }
+                  .choice-btn{
+                        margin: 0 auto;
+                        width: pxTorem(444px);
+                        height: pxTorem(138px);
+                        margin-top: pxTorem(32px);
+                  }
+            }
+      }     
+}

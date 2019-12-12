@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+    <meta charset="UTF-8">
+
+    <title>WebAR</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="css/default.css"/>
+    <link rel="stylesheet" href="css/choice.css">
+    <link rel="stylesheet" href="css/scan.css">
+    <link rel="stylesheet" href="css/aicq.css">
+    <link rel="stylesheet" href="css/share.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/base.css">
+
+    <script src="js/css/flexible.js"></script>
+
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="js/libs/three.js"></script>
+    <script type="text/javascript" src="js/libs/ar.min.js"></script>
+    <script type="text/javascript" src="js/libs/adapter.js"></script>
+    <script type="text/javascript" src="js/libs/FBXLoader.js"></script>
+    <script type="text/javascript" src="js/libs/inflate.min.js"></script>
+    <script type="text/javascript" src="js/libs/OrbitControls.js"></script>
+
+</head>
+
+<body>
+
+<video id="video" playsinline=""></video>
+
+<div class="choice">
+    <div class="choice-box">
+        <div class="choice-btns" id="btnScan">
+            <div class="choice-icon"><img src="images/icon-1.png" alt="" srcset=""></div>
+            <div class="choice-btn"><img src="images/bt-1.png" alt="" srcset=""></div>
+        </div>
+        <div class="choice-btns mt132" id="btn3D">
+            <div class="choice-icon choice-icon2"><img src="images/icon-2.png" alt="" srcset=""></div>
+            <div class="choice-btn"><img src="images/be-2.png" alt="" srcset=""></div>
+        </div>
+
+        <div class="text mt132">请选择合适的摄像头，然后对准名片</div>
+        <div class="text">如无实体名片请直接开始体验</div>
+    </div>
+</div>
+
+<div class="scan">
+    <div class="head verticle-center">
+        <div class="back-btn"></div>
+
+        <div class="right-btn"></div>
+    </div>
+
+    <div class="scan-content">
+        <div class="scan-icon"><img src="images/scan.png" alt=""></div>
+    </div>
+</div>
+
+<div class="aicq">
+    <div class="head verticle-center">
+        <div class="back-btn"></div>
+        <div class="top-btns verticle-center">
+            <div class="top-btn top-btn1"></div>
+            <div class="top-btn top-btn2"></div>
+            <div class="top-btn top-btn3"></div>
+        </div>
+    </div>
+</div>
+
+<div class="share">
+    <div class="head verticle-center">
+        <div class="back-btn"></div>
+    </div>
+
+    <div class="share-content">
+        <div class="qrcode">
+            <img src="images/timg.jpg" alt="" srcset="">
+        </div>
+        <div class="text"><img src="images/wenzi.png" alt=""></div>
+        <div class="login-btn"><img src="images/logbtn.png" alt=""></div>
+    </div>
+</div>
+
+<div class="contact">
+    <div class="head verticle-center">
+        <div class="back-btn"></div>
+    </div>
+
+    <div class="content">
+        <div class="icon"><img src="images/icon.png" alt=""></div>
+    </div>
+</div>
+
+<div class="footer">
+    <select class="none" id="videoDevice"></select>
+</div>
+
+<script type="text/javascript" src="js/common/check.js"></script>
+
+<script type='text/javascript' src='js/3d/3d.js'></script>
+
+<script type="text/javascript" src="js/common/UIEvent.js"></script>
+
+</body>
+
+</html>

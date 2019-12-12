@@ -1,0 +1,29 @@
+.wechat {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-size: 100% 100%;
+  background-image: url(../images/BG.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.wechat .wechat-content {
+  margin-top: 1.16rem;
+  margin-right: 0.72rem;
+  height: 7.09333rem;
+  width: 6.48rem;
+  float: right;
+  background-size: contain;
+  background-image: url(../images/Safari.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.wechat .share-text {
+  font-size: 0.50667rem;
+  text-align: center;
+  margin-top: 1.53333rem;
+}

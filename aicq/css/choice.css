@@ -1,0 +1,48 @@
+.choice {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.choice img {
+  width: 100%;
+}
+
+.choice .choice-box {
+  padding-top: 2.29333rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.choice .choice-box .mt132 {
+  margin-top: 1.76rem;
+}
+
+.choice .choice-box .text {
+  color: #fff;
+  font-size: 0.37333rem;
+  text-align: center;
+  line-height: 0.56rem;
+}
+
+.choice .choice-box .choice-btns .choice-icon {
+  margin: 0 auto;
+  width: 1.89333rem;
+}
+
+.choice .choice-box .choice-btns .choice-icon2 {
+  margin: 0 auto;
+  width: 1.81333rem;
+}
+
+.choice .choice-box .choice-btns .choice-btn {
+  margin: 0 auto;
+  width: 5.92rem;
+  height: 1.84rem;
+  margin-top: 0.42667rem;
+}

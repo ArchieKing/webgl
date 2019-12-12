@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+.none {
+    display: none;
+}
+
+#video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    index: 1;
+
+    /* background-color: rgba(0,0,0,0.3);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    -o-filter: blur(10px);
+    filter: blur(10px);  */
+}
+
+#debug {
+    position: absolute;
+    top: 0;
+    left: 0;
+    index: 1000;
+    color: #FF0000;
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+
+    width: 100%;
+    text-align: center;
+
+    z-index: 99;
+}
+
+.mainCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

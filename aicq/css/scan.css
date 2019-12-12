@@ -1,0 +1,78 @@
+.scan {
+  position: fixed;
+  z-index: 999;
+  top: 0.4rem;
+  left: 0;
+  height: 0.77333rem;
+  width: 100%;
+  align-items: stretch;
+}
+
+/*.scan .head {*/
+  /*position: fixed;*/
+  /*!*z-index: 9999;*!*/
+  /*top: 0.4rem;*/
+  /*left: 0;*/
+  /*height: 0.77333rem;*/
+  /*width: 100%;*/
+  /*align-items: stretch;*/
+/*}*/
+
+.scan .head .back-btn {
+  margin-left: 0.4rem;
+  height: 0.77333rem;
+  width: 0.77333rem;
+  border-radius: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/back.png);
+}
+
+.scan .head .right-btn {
+  position: absolute;
+  right: 0.4rem;
+  height: 0.77333rem;
+  width: 0.77333rem;
+  border-radius: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/cam.png);
+}
+
+.scan .head .top-btns {
+  margin-left: 0.29333rem;
+  width: 3.54667rem;
+  height: 0.77333rem;
+  background-size: 100% 100%;
+  background-image: url(../images/Rounded.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  padding: 0 0.13333rem;
+}
+
+.scan .head .top-btns .top-btn {
+  height: 0.45333rem;
+  flex: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scan .head .top-btns .top-btn1 {
+  background-image: url(../images/download.png);
+}
+
+.scan .scan-content {
+  padding-top: 5.01333rem;
+}
+
+.scan .scan-content .scan-icon {
+  width: 5.81333rem;
+  margin: 0 auto;
+}
+
+.scan .scan-content .scan-icon img {
+  width: 100%;
+}
