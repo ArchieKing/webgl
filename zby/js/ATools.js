@@ -1,0 +1,1 @@
+var index=1;$.getJSON("res/data.json",function(a){$(".btnSwitch").click(function(b){index=index>=a.model.length?0:index;marmoset.embed("res/"+a.model[index],{width:800,height:600,autoStart:true,fullFrame:true,pagePreset:false});index+=1});marmoset.embed("res/sk3d_1.mview",{width:800,height:600,autoStart:true,fullFrame:true,pagePreset:false})});
